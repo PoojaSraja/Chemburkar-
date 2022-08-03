@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gym Website</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+ 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+
+
+ 
+</head>
+<body>
+	<div class="top-container">
+    <div class="name1">
+		<a href="index.html" class="pull-left visible-md visible-lg visible-sm visible-xs">
+      <p>
+		<img class="logo circular" src="images/gym_logo.jpg" alt="logo"><span class="pull-right visible-lg visible-md visible-sm"><strong> Chemburkars Health Club</strong> </span></p></a></div>
+  
+		<span class="contact">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+        <ul id="nav-list" class="nav navbar-nav navbar-right visible-lg visible-md visible-sm">
+          <li id="phone">
+					  <a href="tel: 9820501208"><span class="glyphicon glyphicon-earphone"> 9820501208</span></a>
+            <a href="tel: 022 2528 0341"><span class="glyphicon glyphicon-phone-alt"> 022 2528 0341</span></a>
+          </li>
+        </ul>
+			</div>
+		</span>
+
+    <div class="middle-container">
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header ">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right" >
+               <li>
+                <a href="sign.html">
+                </span> Sign-up</a>
+              </li>
+              <li style>
+                <a href="about.html">
+                </span> About</a>
+              </li>
+              <li>
+                <a href="protocols.html"></span> Covid protocols</a>
+              </li>
+              <li>
+    <!-- Button HTML (to Trigger Modal) -->
+    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal">Contact Us</a>
+    
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Feedback</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="inputName" reuired>Name</label>
+                            <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputComment" >Comments or queries</label>
+                            <textarea class="form-control" id="inputComment" rows="4"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>     
+<script>
+  // Focus pop-up window of contact us
+$(document).ready(function(){
+    $("#myModal").on('shown.bs.modal', function(){
+        $(this).find('input[type="text"]').focus();
+    });
+});
+</script>
+              </li>
+             
+            </ul>
+        </div>
+      </div>
+    </li>
+    </nav>
+  </div>
+<br>
+</head>
+</div>
+    <div>
+        <video autoplay muted loop id="myVideo">
+     <source src="images/yoga.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="content">
+    <h1>Yoga</h1>
+    <p>Health Benefits<br>
+    Benefits both the mind and body.Helps achieve mental, physical and spiritual discipline.
+    Increases flexibility. Strengthens and tones muscles.
+    Helps in weight loss.Improves concentration and focus.<br>
+    Average Calorie Burn: 250-400 Calories/hour</p>
+    <button id="myBtn" onclick="myFunction()">Pause</button>
+    </div>
+       <a href="#" class="arrow">
+      <i class="fa fa-angle-down"></i>
+   </a>
+
+    <video autoplay muted loop id="myVideo">
+     <source src="images/physio.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="content">
+    <h1>Physiotherapy</h1>
+    <p>Physiotherapy helps to restore movement and function when someone is affected by injury, illness or disability. It can also help to reduce your risk of injury or illness in the future.<br>
+    Top benefits for the elderly (above age 50 yrs): <br>
+    Maintain muscle & bone Weight.
+Prevent & control High BP and diabetes.
+Controls joint problems like Pain & Arthritis.
+Slow down the ageing process.
+Age gracefully.</p>
+    <button id="myBtn" onclick="myFunction()">Pause</button>
+    </div>
+       <a href="#" class="arrow">
+      <i class="fa fa-angle-down"></i>
+   </a>
+
+
+    <div class="v2">
+      <video autoplay muted loop id="myVideo">
+     <source src="images/stretching.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="content">
+    <h1>Stretching</h1>
+    <p>Health Benefits<br>
+  Stretches and soothes muscles.
+  Relieves muscle cramps.
+  Increases strength.
+  Builds flexibility.<br>
+  Average Calorie Burn<br>50-100 Calories/hour</p>
+    <button id="myBtn" onclick="myFunction()">Pause</button>
+    </div>
+     <a href="#" class="arrow">
+      <i class="fa fa-angle-down"></i>
+   </a>
+
+    <div class="v3">
+      <video autoplay muted loop id="myVideo">
+     <source src="images/body.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="content">
+    <h1>Body Buiding</h1>
+    <p>Health Benefits<br>
+      A physical fitness regimen to build muscles.
+    Better muscular strength and endurance.
+    Increases fat and calorie burn.
+    Long lasting results.<br>
+    Average Calorie Burn: 
+    300-500 Calories/hour<br></p>
+    <button id="myBtn" onclick="myFunction()">Pause</button>
+    </div>
+     <a href="#" class="arrow">
+      <i class="fa fa-angle-down"></i>
+   </a>
+
+
+    <div class="v4">
+      <video autoplay muted loop id="myVideo">
+     <source src="images/training.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="content">
+    <h1>Functional Training</h1>
+    <p>Health Benefits<br>
+      Increases body's flexibility, strength and endurance.
+      Delivers overall fitness and makes body function better.<br>
+      Strengthens core, helps recovering from injury.
+      Betters performance in sports.<br>
+      Average Calorie Burn: 500-600 kcal/hour
+    </p>
+    <button id="myBtn" onclick="myFunction()">Pause</button>
+    </div>
+  </div>
+
+
+<button onclick="topFunction()" id="myBtn1" title="Go to top">Top</button>
+<script>
+  //Get the button for the video
+var mybutton = document.getElementById("myBtn1");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+  <script>
+  var video = document.getElementById("myVideo");
+  var btn = document.getElementById("myBtn");
+
+  function myFunction() {
+    if (video.paused) {
+      video.play();
+      btn.innerHTML = "Pause";
+    } else {
+      video.pause();
+      btn.innerHTML = "Play";
+    }
+  }
+  </script>
+</div>
+</body>
+
+<footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Monday-Saturday: <br>
+          Morning: 06:30am - 11:00am<br>
+          Evening: 04:00pm - 9:00pm<br>
+          Sunday Closed
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          D-34, Chembur Gaothan,<br>
+          Opposite Chembur Post Office, <br>
+          Chembur East, Mumbai-400071
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"Great place to workout and maintain your fitness!"</p>
+          <p>"Trainers are very attentive and focused on your fitness, a much recommended place!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Chemburkar's HealthClub</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="snippets/script.js"></script>
+  
+</html>
